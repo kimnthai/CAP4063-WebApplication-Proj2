@@ -1,23 +1,24 @@
-/*  NAVBAR */
- #myNavbar .navbar-brand {
+ #myNavbar .navbar-brand 
+{
     color: white;
      letter-spacing: 3px;
-    font-family: 'Molle', 'Helvetica Neue', Helvetica, Arial, cursive; }
-    #myNavbar .navbar-nav .nav-item .nav-link {
+    font-family: 'Molle', 'Helvetica Neue', Helvetica, Arial, cursive; 
+}
+#myNavbar .navbar-nav .nav-item .nav-link 
+{
     font-size: 90%;
     font-weight: 400;
     padding: .3em 1em;
     letter-spacing: 1px;
     color: white;
     font-family: 'Handlee', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
-    #myNavbar .navbar-nav .nav-item .nav-link.active, #myNavbar .navbar-nav .nav-item .nav-link:hover {
+    text-transform: uppercase; 
+}
+#myNavbar .navbar-nav .nav-item .nav-link.active, #myNavbar .navbar-nav .nav-item .nav-link:hover 
+{
         margin-top: 5px;
       color: #5cbfdf; }
 
-
-
-/* CAROUSEL */
 
 .carousel-inner {
     margin-top: -80px;
@@ -32,8 +33,13 @@
 .carousel-caption  {
     margin-bottom: 140px;
 }
-
-
+p{
+    color:black;
+    font-family:'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+}
+h1{
+    color:black;
+}
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
@@ -50,7 +56,6 @@ a {
   a.active, a:active, a:focus, a:hover {
     color: #5cbfdf; }
 /*
-
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -102,7 +107,8 @@ section {
 #anime-content {
     margin-bottom: 50px;
     text-align: center;;    }
-    #anime-content img {
+    #anime-content img 
+{
     margin-bottom: 20px;
     margin-top: 10px;}
 
