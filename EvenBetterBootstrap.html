@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>       
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Bootstrap</title>
+    <!--   Bootstrap CSS     -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <style>
+    li{list-style: none;}
+    ul
+    {
+    list-style: none;
+      margin:0;
+     padding: 5px 0;
+    }
+    img
+    {
+     border:solid black;
+    }
+    .alert
+    {
+         display: inline-block;
+        width:80%;
+    }
+    </style>
+</head>
+<body>
+  
+ 
+   <!-- NAVIGATION -->   
+    <nav class="navbar fixed-top navbar-inverse bg-inverse navbar-toggleable-md ">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <a class="navbar-brand" href="#">AnimeDojo</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>        
+        </div>
+    </nav>
+      
+
+    <!-- jumbotron -->    
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center">     
+       <h1 class="display-3 pt-5">Anime Dojo</h1>
+       <p class="lead">Guiding one on the path to the best anime straight from Japan</p>
+    </div>
+   
+   <h1>Choose your destiny</h1>
+    <div class="row">
+      <!--Current Season-->
+       <div class="col-md-4">
+        <span class= "badge badge-info">Current Season</span>
+        <span class= "badge badge-pill badge-danger">NEW!</span>
+        <li>
+            <ul><img src="MyHeroAcademia.jpg" class="img-responsive" width="200" height="250" alt="My Hero Academia">
+            <div class="alert alert-warning" role="alert">
+           <strong>EPISODE 37</strong> 
+            </div>
+       </ul>
+        <ul><img src="Gamers!.jpg" class="img-responsive" width="200" height="250" alt="GAMERS!"><div class="alert alert-warning" role="alert">
+           <strong>EPISODE 12</strong> 
+            </div></ul>
+         </li>
+        </div>
+        <div class="col-md-4">
+        <span class="badge badge-primary">Newcomers</span>
+        <span class= "badge badge-pill badge-danger">ADDED!</span>
+        <li>
+        <ul><img src="Erased.jpg" class="img-responsive" width="200" height="250" alt="Erased"><div class="alert alert-warning" role="alert">
+           <strong>COMPLETE</strong> 
+            </div></ul>
+        <ul><img src="Toradora.jpg" class="img-responsive" width="200" height="250" alt="Toradora"><div class="alert alert-warning" role="alert">
+           <strong>COMPLETE</strong> 
+            </div></ul>
+         </li>
+        </div>
+        <div class="col-md-4">
+        <span class="badge badge-success">Classics</span>
+        <span class= "badge badge-pill badge-danger">ADDED!</span>
+        <li>
+        <ul><img src="DragonBallZ.jpg" class="img-responsive" width="200" height="250" alt="DragonBall Z"><div class="alert alert-warning" role="alert">
+           <strong>COMPLETE</strong> 
+            </div></ul>
+        <ul><img src="FullMetalAlchemistBrotherhood.jpg" class="img-responsive" width="200" height="250" alt="Full Metal Alchemist Brotherhood"><div class="alert alert-warning" role="alert">
+           <strong>COMPLETE</strong> 
+            </div></ul>
+         </li>
+        </div>
+    </div>
+    
+ 
+    <!-- make use of glyphycons  -->
+    
+    <!-- COPY RIGHT and such -->
+    <!-- make use of glyphycons  -->
+
+  <h1>The Dojo Masters</h1>
+  <p>Luis Franco</p>            
+  <img src="LinkedinProfilePicLuis.jpg" alt="Linked Profile for Luis Franco" class="img-circle" width="140" height="140"> 
+  
+    <!-- back to top button -->
+    <!-- © 2017 Company, Inc. · Privacy · Terms -->
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
