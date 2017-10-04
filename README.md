@@ -4,7 +4,7 @@ Project 2 Bootstrap
 
 Using Twitter's Bootstrap version 4.0.0-alpha.6 to create a responsive web page about anime shows (upcoming, and author suggestions).
 
-Project Requirement:
+Project Requirements:
 1. Make use of fluid grid
 2. Heading/jumbotron that spans the full width
 3. Have at least 2 columns.  
